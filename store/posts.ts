@@ -1,5 +1,5 @@
-import {defineStore} from 'pinia';
-import {Post, Comment} from '@/types';
+import { defineStore } from 'pinia';
+import type { Post, Comment } from '@/types';
 
 export const usePostStore = defineStore('postStore', {
     state: () => ({
